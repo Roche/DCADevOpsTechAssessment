@@ -11,7 +11,7 @@ https://docs.microsoft.com/en-us/azure/devops/pipelines/library/service-endpoint
 
 3. Clone the repository https://github.com/AleksAlonso/RocheDevOpsAssessment.git (ask for permissions on the repo first with a GitHub account)
 
-4. Open RocheDevOpsAssessment.sln
+4. Open RocheDevOpsAssessment.sln. Download VS Community from here https://visualstudio.microsoft.com/vs/express/
 	4.a Make it compile
 	4.b Make all Unit tests green
 	
@@ -41,5 +41,5 @@ https://docs.microsoft.com/en-us/azure/devops/pipelines/library/service-endpoint
 	9.a Modify the UI tests so they run against your brand new cloud environment
 	9b. Selenium tests are green
 	
-
+If you find yourself blocked in any of these steps, please continue with the rest of them, or at least try it.
 	
