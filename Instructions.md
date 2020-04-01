@@ -15,7 +15,7 @@ https://docs.microsoft.com/en-us/azure/devops/pipelines/library/service-endpoint
 	4.a Make it compile
 	4.b Make all Unit tests green
 	
-5. You should push the changes to your own repository in Azure Devops, not to the github acccount
+5. You should push the changes to your own repository in Azure Devops, not to the github acccount. Make the repository public in your Azure DevOps account.
 	5.a Use GitFlow branching strategy
 	5.b Add a build policy in the PR (When the pipeline is ready, see 6)
 	5.c Follow best practiques
