@@ -9,9 +9,9 @@ My recommendations is for you to create a new Microsoft account, do not use your
 2. Create a service connection(in Azure DevOps, https://dev.azure.com/ ) so you can deploy resources from Azure Devops to Azure portal(https://portal.azure.com)
 https://docs.microsoft.com/en-us/azure/devops/pipelines/library/service-endpoints?view=azure-devops&tabs=yaml
 
-3. Clone the repository https://github.com/AleksAlonso/RocheDevOpsAssessment.git (ask for permissions on the repo first with a GitHub account)
+3. Clone the repository https://github.com/Roche/DCADevOpsTechAssessment
 
-4. Open RocheDevOpsAssessment.sln. Download VS Community from here https://visualstudio.microsoft.com/vs/express/
+4. Open RocheDevOpsAssessment.sln. Download VS Community from here https://visualstudio.microsoft.com/vs/express/ in case you don't have one available'
 	4.a Make it compile
 	4.b Make all Unit tests green
 	
@@ -40,6 +40,7 @@ https://docs.microsoft.com/en-us/azure/devops/pipelines/library/service-endpoint
 9. When everything is ready and deployed in Azure, make sure all UI tests in the VS solution are working by:	
 	9.a Modify the UI tests so they run against your brand new cloud environment
 	9b. Selenium tests are green
+	9.c Include them in the pipeline
 	
 If you find yourself blocked in any of these steps, please continue with the rest of them, or at least try it.
 	
